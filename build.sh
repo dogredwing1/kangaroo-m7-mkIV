@@ -3,8 +3,8 @@
 # Kangaroo Kernel build script thanks to CyanogenMod, anarkia1976
 
 # Kernel Version
-BASE_VER="-AnthraxOS"
-VER="-v027"
+BASE_VER="-KANGAROO"
+VER="-mkIV.v027"
 VER=$BASE_VER$VER
 
 # AK Variables
@@ -18,6 +18,5 @@ make m7_defconfig
 env KCONFIG_NOTIMESTAMP=true \
 make ARCH=arm export SUBARCH=arm CROSS_COMPILE=arm-eabi-
 
-# build the kernel
 
-make -j4
+
